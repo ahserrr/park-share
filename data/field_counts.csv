@@ -1,0 +1,13 @@
+source,date,time,segment,cars_parked_illegally,note
+SAMPLE,2026-10-15,07:00,1 Persiaran Putra Indah,2,replace with real count
+SAMPLE,2026-10-15,07:00,2 Jalan near Putra Point,1,
+SAMPLE,2026-10-15,07:00,3 Residential street A,0,
+SAMPLE,2026-10-15,07:30,1 Persiaran Putra Indah,6,
+SAMPLE,2026-10-15,07:30,2 Jalan near Putra Point,5,
+SAMPLE,2026-10-15,07:30,3 Residential street A,3,
+SAMPLE,2026-10-15,08:00,1 Persiaran Putra Indah,11,
+SAMPLE,2026-10-15,08:00,2 Jalan near Putra Point,9,
+SAMPLE,2026-10-15,08:00,3 Residential street A,7,
+SAMPLE,2026-10-15,08:30,1 Persiaran Putra Indah,12,
+SAMPLE,2026-10-15,08:30,2 Jalan near Putra Point,10,
+SAMPLE,2026-10-15,08:30,3 Residential street A,9,
