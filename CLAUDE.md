@@ -17,8 +17,9 @@ and attaches a tenant-funded breakfast perk to each booking.
 - Submission: Fri 23 Oct 2026 (aim for noon). Needs a public GitHub repo + live Streamlit Community Cloud link + 5-min demo video.
 
 ## How the code is organised
-- `app.py` home page; `pages/1_Commuter.py` booking + QR + perk; `pages/2_SDP_Admin.py` dashboard; `pages/3_Simulator.py` scenarios
-- `core/allocator.py` bay assignment rules · `core/forecast.py` busy-day rules · `core/simulate.py` morning simulation · `core/db.py` SQLite + demo bays
+- `app.py` home page; `pages/1_Commuter.py` booking + QR + perk; `pages/2_SDP_Admin.py` dashboard; `pages/3_Simulator.py` scenarios; `pages/4_Resident_Host.py` Serasi residents list bays
+- `core/allocator.py` bay assignment rules · `core/forecast.py` busy-day rules · `core/simulate.py` morning simulation · `core/db.py` SQLite + demo bays (Putra Heights only) · `core/sites.py` townships + sidebar Township picker
+- Every page calls `site_picker()` and filters by the chosen site. Candidate sites have no field data: always label their numbers as placeholders.
 - `data/field_counts.csv` street counts (SAMPLE until our site visit)
 - Run: activate `.venv`, then `streamlit run app.py`. Quick logic check: `python -m core.simulate`
 
